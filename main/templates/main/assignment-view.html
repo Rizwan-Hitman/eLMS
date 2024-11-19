@@ -39,10 +39,7 @@
       <label class="p-2 fw-bold" for="">Attachment: &nbsp <a
          class="px-2 py-1 text-success bg-success bg-opacity-10 border border-success border-opacity-10 rounded-2"
          style="text-decoration: none; font-size: smaller !important" href="{{assignment.file.url}}"> &nbsp View
-      </a> &nbsp or &nbsp <a
-         class="fs-6 px-2 py-1 text-primary bg-primary bg-opacity-10 border border-priamry border-opacity-10 rounded-2"
-         style="text-decoration: none; font-size: smaller !important" download href=" {{assignment.file.url}}">
-      Download</a></label><br>
+      </a> &nbsp</label><br>
       {% endif %}
       <label class="p-2 fw-bold" for="">
       Submitted : {{assignment.submission_set.count}}/{{totalStudents}}
